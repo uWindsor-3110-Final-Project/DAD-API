@@ -1,4 +1,4 @@
-CREATE DATABASE course_sequence_generator;
+use course_sequence_generator;
 
 CREATE TABLE major (
     majorId integer(5) unsigned NOT NULL AUTO_INCREMENT,
