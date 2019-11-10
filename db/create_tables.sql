@@ -19,7 +19,7 @@ CREATE TABLE student (
   studentId integer(5) unsigned NOT NULL AUTO_INCREMENT,
   firstName varchar(30),
   lastName varchar(30),
-  majorId integer(5) NOT NULL,
+  majorId integer(5) unsigned NOT NULL,
   email varchar(30) NOT NULL,
   password varchar(30) NOT NULL,
   PRIMARY KEY (studentId),
@@ -27,8 +27,8 @@ CREATE TABLE student (
 );
 
 CREATE TABLE coursesForMajors (
-    majorId integer(5) NOT NULL,
-    courseId interger(5) NOT NULL,
+    majorId integer(5) unsigned NOT NULL,
+    courseId integer(5) unsigned NOT NULL,
     isRequired boolean NOT NULL,
     FOREIGN KEY (majorId) references major (majorId),
     FOREIGN KEY (courseId) references courses (courseId),
