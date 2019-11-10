@@ -1,3 +1,5 @@
+CREATE DATABASE course_sequence_generator;
+
 CREATE TABLE major (
     majorId integer(5) unsigned NOT NULL AUTO_INCREMENT,
     majorName varchar(30) NOT NULL,
@@ -32,3 +34,5 @@ CREATE TABLE coursesForMajors (
     FOREIGN KEY (courseId) references courses (courseId),
     PRIMARY KEY (majorId, courseId)
 );
+
+COMMIT;
