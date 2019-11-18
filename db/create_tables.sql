@@ -39,7 +39,7 @@ CREATE TABLE prerequisites (
     courseId integer(5) unsigned NOT NULL,
     preReqCourseId integer(5) unsigned NOT NULL,
     FOREIGN KEY (courseId) references courses (courseId),
-    FOREIGN KEY (preReqCourseId) references courses (courseId),
+    FOREIGN KEY (preReqCourseId) references courses (courseId)
 );
 
 COMMIT;
