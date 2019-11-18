@@ -8,7 +8,7 @@ CREATE TABLE major (
 
 
 CREATE TABLE courses (
-    courseId varchar(30) unsigned NOT NULL AUTO_INCREMENT,
+    courseId varchar(30) unsigned NOT NULL,
     courseName varchar(30) NOT NULL,
     semesterOffered integer(1) NOT NULL,
     PRIMARY KEY (courseId),
