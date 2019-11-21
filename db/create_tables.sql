@@ -8,7 +8,7 @@ CREATE TABLE major (
 
 
 CREATE TABLE courses (
-    courseId varchar(30) unsigned NOT NULL,
+    courseId varchar(30) NOT NULL,
     courseName varchar(30) NOT NULL,
     semesterOffered integer(1) NOT NULL,
     PRIMARY KEY (courseId),
@@ -28,7 +28,7 @@ CREATE TABLE student (
 
 CREATE TABLE coursesForMajors (
     majorId integer(5) unsigned NOT NULL,
-    courseId varchar(30) unsigned NOT NULL,
+    courseId varchar(30) NOT NULL,
     isCoreCourse boolean NOT NULL,
     FOREIGN KEY (majorId) references major (majorId),
     FOREIGN KEY (courseId) references courses (courseId),
@@ -36,8 +36,8 @@ CREATE TABLE coursesForMajors (
 );
 
 CREATE TABLE prerequisites (
-    courseId varchar(30) unsigned NOT NULL,
-    preReqCourseId varchar(30) unsigned NOT NULL,
+    courseId varchar(30) NOT NULL,
+    preReqCourseId varchar(30) NOT NULL,
     FOREIGN KEY (courseId) references courses (courseId),
     FOREIGN KEY (preReqCourseId) references courses (courseId)
 );
