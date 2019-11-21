@@ -54,3 +54,66 @@ insert into coursesForMajors values(5, 'COMP-4400', true );
 insert into coursesForMajors values(5, 'COMP-4540', true );
 insert into coursesForMajors values(5, 'COMP-4800', true );
 insert into coursesForMajors values(5, 'COMP-4960/COMP-4990', true );
+insert into coursesForMajors values(5, 'MATH-1020', true);
+insert into coursesForMajors values(5, 'MATH-1260', true);
+insert into coursesForMajors values(5, 'MATH-1760', true);
+insert into coursesForMajors values(5, 'MATH-1730', true);
+insert into coursesForMajors values(5, 'STAT-2910', true);
+insert into courseForMajors values(5, 'PSYCH-1150', false);
+insert into courseForMajors values(5, 'CMAF-2210', false);
+insert into courseForMajors values(5, 'PHIL-2210', false);
+insert into courseForMajors values(5, 'MKTG-1310', false);
+
+
+
+insert into prerequisites values('COMP-3110','COMP-2120');
+insert into prerequisites values('COMP-3110','COMP-2540');
+insert into prerequisites values('COMP-4990','COMP-3670');
+insert into prerequisites values('COMP-4990','COMP-3540');
+insert into prerequisites values('COMP-4990','COMP-3330');
+insert into prerequisites values('COMP-4800','COMP-3110');
+insert into prerequisites values('COMP-4990','COMP-3220');
+insert into prerequisites values('COMP-4990','COMP-3330');
+insert into prerequisites values('COMP-4540','COMP-2140');
+insert into prerequisites values('COMP-4540','COMP-2310');
+insert into prerequisites values('COMP-4540','COMP-2540');
+insert into prerequisites values('COMP-4440','COMP-2140');
+insert into prerequisites values('COMP-4440','COMP-2310');
+insert into prerequisites values('COMP-4440','COMP-2540');
+insert into prerequisites values('COMP-4110','COMP-3110');
+insert into prerequisites values('COMP-4110','COMP-3330');
+insert into prerequisites values('COMP-3670','COMP-2120');
+insert into prerequisites values('COMP-3670','COMP-2540');
+insert into prerequisites values('COMP-3670','COMP-2560');
+insert into prerequisites values('COMP-3670','COMP-2650');
+insert into prerequisites values('COMP-3540','COMP-2140');
+insert into prerequisites values('COMP-3540','COMP-2310');
+insert into prerequisites values('COMP-3540','COMP-2540');
+insert into prerequisites values('COMP-3330','COMP-2120');
+insert into prerequisites values('COMP-3330','COMP-2540');
+insert into prerequisites values('COMP-3330','COMP-2560');
+insert into prerequisites values('COMP-3330','COMP-2650');
+insert into prerequisites values('COMP-3330','COMP-2660');
+insert into prerequisites values('COMP-3220','COMP-2120');
+insert into prerequisites values('COMP-3220','COMP-2540');
+insert into prerequisites values('COMP-3150','COMP-2540');
+insert into prerequisites values('COMP-3150','COMP-2560');
+insert into prerequisites values('COMP-3150','COMP-2650');
+insert into prerequisites values('COMP-2800','COMP-2120');
+insert into prerequisites values('COMP-2660','COMP-2650');
+insert into prerequisites values('COMP-2650','COMP-1400');
+insert into prerequisites values('COMP-2560','COMP-1410');
+insert into prerequisites values('COMP-2540','COMP-1410');
+insert into prerequisites values('COMP-2310','COMP-1000');
+insert into prerequisites values('COMP-2310','MATH-1020');
+insert into prerequisites values('COMP-2140','COMP-1000');
+insert into prerequisites values('COMP-2140','COMP-2120');
+insert into prerequisites values('COMP-2120','COMP-1410');
+insert into prerequisites values('COMP-1410','COMP-1000');
+insert into prerequisites values('COMP-1410','COMP-1400');
+
+
+
+
+
+
