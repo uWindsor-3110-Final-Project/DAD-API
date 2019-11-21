@@ -1,10 +1,10 @@
 use course_sequence_generator;
 
-insert into major values(0, 'Bachelor of Computer Science, General');
-insert into major values(1, 'Bachelor of Computer Science, Honours');
-insert into major values(2, 'Bachelor of Computer Science, Honours Applied Computing');
-insert into major values(3, 'Bachelor of Science, Honours Computer Information');
-insert into major values(4, 'Bachelor of Science, Honours Computer Science, Software Engineering Specialization');
+insert into major values(1, 'Bachelor of Computer Science, General');
+insert into major values(2, 'Bachelor of Computer Science, Honours');
+insert into major values(3, 'Bachelor of Computer Science, Honours Applied Computing');
+insert into major values(4, 'Bachelor of Science, Honours Computer Information');
+insert into major values(5, 'Bachelor of Science, Honours Computer Science, Software Engineering Specialization');
 
 -- Software Engineering --
 insert into courses values('COMP-1000', 'Key Concepts in Computer Science', 7);
@@ -32,25 +32,25 @@ insert into courses values('COMP-4960/COMP-4990', 'Research Project or Project M
 
 
 
-insert into coursesForMajors values(4, 'COMP-1000', true);
-insert into coursesForMajors values(4, 'COMP-1400', true);
-insert into coursesForMajors values(4, 'COMP-1410', true );
-insert into coursesForMajors values(4, 'COMP-2120', true );
-insert into coursesForMajors values(4, 'COMP-2140', true );
-insert into coursesForMajors values(4, 'COMP-2310', true );
-insert into coursesForMajors values(4, 'COMP-2540', true );
-insert into coursesForMajors values(4, 'COMP-2650', true );
-insert into coursesForMajors values(4, 'COMP-2560', true );
-insert into coursesForMajors values(4, 'COMP-2660', true );
-insert into coursesForMajors values(4, 'COMP-2800', true );
-insert into coursesForMajors values(4, 'COMP-3110', true );
-insert into coursesForMajors values(4, 'COMP-3150', true );
-insert into coursesForMajors values(4, 'COMP-3220', true );
-insert into coursesForMajors values(4, 'COMP-3300', true );
-insert into coursesForMajors values(4, 'COMP-3540', true );
-insert into coursesForMajors values(4, 'COMP-3670', true );
-insert into coursesForMajors values(4, 'COMP-4110', true );
-insert into coursesForMajors values(4, 'COMP-4400', true );
-insert into coursesForMajors values(4, 'COMP-4540', true );
-insert into coursesForMajors values(4, 'COMP-4800', true );
-insert into coursesForMajors values(4, 'COMP-4960/COMP-4990', true );
+insert into coursesForMajors values(5, 'COMP-1000', true);
+insert into coursesForMajors values(5, 'COMP-1400', true);
+insert into coursesForMajors values(5, 'COMP-1410', true );
+insert into coursesForMajors values(5, 'COMP-2120', true );
+insert into coursesForMajors values(5, 'COMP-2140', true );
+insert into coursesForMajors values(5, 'COMP-2310', true );
+insert into coursesForMajors values(5, 'COMP-2540', true );
+insert into coursesForMajors values(5, 'COMP-2650', true );
+insert into coursesForMajors values(5, 'COMP-2560', true );
+insert into coursesForMajors values(5, 'COMP-2660', true );
+insert into coursesForMajors values(5, 'COMP-2800', true );
+insert into coursesForMajors values(5, 'COMP-3110', true );
+insert into coursesForMajors values(5, 'COMP-3150', true );
+insert into coursesForMajors values(5, 'COMP-3220', true );
+insert into coursesForMajors values(5, 'COMP-3300', true );
+insert into coursesForMajors values(5, 'COMP-3540', true );
+insert into coursesForMajors values(5, 'COMP-3670', true );
+insert into coursesForMajors values(5, 'COMP-4110', true );
+insert into coursesForMajors values(5, 'COMP-4400', true );
+insert into coursesForMajors values(5, 'COMP-4540', true );
+insert into coursesForMajors values(5, 'COMP-4800', true );
+insert into coursesForMajors values(5, 'COMP-4960/COMP-4990', true );
