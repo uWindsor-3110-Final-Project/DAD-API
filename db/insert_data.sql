@@ -29,6 +29,15 @@ insert into courses values('COMP-4400', 'Principles of Programming Languages', 5
 insert into courses values('COMP-4540', 'Design and Analysis of Computer Algorithms', 3);
 insert into courses values('COMP-4800', 'Selected Topics in Software Engineering', 2);
 insert into courses values('COMP-4960/COMP-4990', 'Research Project or Project Management: Techniques and Tools', 3);
+insert into courses values('MATH-1020', 'Mathematical Foundations', 6);
+insert into courses values('MATH-1250', 'Linear Algebra', 3);
+insert into courses values('MATH-1760', 'Differential Calculus', 7);
+insert into courses values('MATH-1730', 'Integral Calculus', 6);
+insert into courses values('STAT-2910', 'Statistics for the Sciences', 7);
+insert into courses values('PSYCH-1150', 'Introduction to Psychology', 7);
+insert into courses values('CMAF-2210', 'The Art of Photo-blogging', 7);
+insert into courses values('PHIL-2210', 'Introduction to Ethics', 7);
+insert into courses values('MKTG-1310', 'Principles of Marketing', 7);
 
 
 
@@ -55,7 +64,7 @@ insert into coursesForMajors values(5, 'COMP-4540', true );
 insert into coursesForMajors values(5, 'COMP-4800', true );
 insert into coursesForMajors values(5, 'COMP-4960/COMP-4990', true );
 insert into coursesForMajors values(5, 'MATH-1020', true);
-insert into coursesForMajors values(5, 'MATH-1260', true);
+insert into coursesForMajors values(5, 'MATH-1250', true);
 insert into coursesForMajors values(5, 'MATH-1760', true);
 insert into coursesForMajors values(5, 'MATH-1730', true);
 insert into coursesForMajors values(5, 'STAT-2910', true);
