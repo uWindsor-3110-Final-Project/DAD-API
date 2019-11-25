@@ -74,7 +74,19 @@ insert into courseForMajors values(5, 'PHIL-2210', false);
 insert into courseForMajors values(5, 'MKTG-1310', false);
 
 
-
+insert into prerequisites values('COMP-1410','COMP-1400');
+insert into prerequisites values('COMP-1410','COMP-1000');
+insert into prerequisites values('COMP-2120','COMP-1410');
+insert into prerequisites values('COMP-2140','COMP-1000');
+insert into prerequisites values('COMP-2140','COMP-2120');
+insert into prerequisites values('COMP-2800','COMP-2120');
+insert into prerequisites values('COMP-2310','MATH-1020');
+insert into prerequisites values('COMP-2310','COMP-1000');
+insert into prerequisites values('COMP-2540','COMP-1410');
+insert into prerequisites values('COMP-2560','COMP-1410');
+insert into prerequisites values('COMP-2650','COMP-1400');
+insert into prerequisites values('COMP-2660','COMP-2650');
+insert into prerequisites values('COMP-2800','COMP-2120');
 insert into prerequisites values('COMP-3110','COMP-2120');
 insert into prerequisites values('COMP-3110','COMP-2540');
 insert into prerequisites values('COMP-4990','COMP-3670');
@@ -120,9 +132,3 @@ insert into prerequisites values('COMP-2140','COMP-2120');
 insert into prerequisites values('COMP-2120','COMP-1410');
 insert into prerequisites values('COMP-1410','COMP-1000');
 insert into prerequisites values('COMP-1410','COMP-1400');
-
-
-
-
-
-
