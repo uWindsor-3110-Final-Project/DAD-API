@@ -29,7 +29,7 @@ CREATE TABLE student (
 CREATE TABLE coursesForMajors (
     majorId integer(5) unsigned NOT NULL,
     courseId varchar(30) NOT NULL,
-    isCoreCourse boolean NOT NULL,
+    isCoreCourse BOOL NOT NULL,
     FOREIGN KEY (majorId) references major (majorId),
     FOREIGN KEY (courseId) references courses (courseId),
     PRIMARY KEY (majorId, courseId)
