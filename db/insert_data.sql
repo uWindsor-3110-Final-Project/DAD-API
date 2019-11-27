@@ -68,12 +68,10 @@ insert into coursesForMajors values(5, 'MATH-1250', true);
 insert into coursesForMajors values(5, 'MATH-1760', true);
 insert into coursesForMajors values(5, 'MATH-1730', true);
 insert into coursesForMajors values(5, 'STAT-2910', true);
-/*
-insert into courseForMajors values(5, 'PSYCH-1150', false);
-insert into courseForMajors values(5, 'CMAF-2210', false);
-insert into courseForMajors values(5, 'PHIL-2210', false);
-insert into courseForMajors values(5, 'MKTG-1310', false);
-*/
+insert into courseForMajors values(5, 'PSYCH-1150', true);
+insert into courseForMajors values(5, 'CMAF-2210', true);
+insert into courseForMajors values(5, 'PHIL-2210', true);
+insert into courseForMajors values(5, 'MKTG-1310', true);
 
 insert into prerequisites values('COMP-4960/COMP-4990','COMP-3670');
 insert into prerequisites values('COMP-4960/COMP-4990','COMP-3540');
